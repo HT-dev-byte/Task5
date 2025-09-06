@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="website.css" />
+  <script defer src="website.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Name</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+       <button id="theme-toggle" aria-label="Dark/Light mode">🌙</button>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Kausthoub Vishnu</h1>
+    <p>Frontend Developer</p>
+    <a href="#projects" class="cta-button">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Biography: Aspiring Developer.</p>
+  </section>
+
+  <section id="projects">
+    <div class="project-grid">
+      <section id="projects" style="max-width: 1100px; margin: auto; padding: 4rem 1rem;">
+  <h2 data-aos="fade-up" style="text-align:center; margin-bottom: 2rem;">Projects</h2>
+
+      <div class="project-info" style="padding: 1rem;">
+        <h3>NIDS System</h3>
+        <p>A Network Intrusion Detection System (NIDS) using machine learning that detects and classifies various types of cyber-attacks (DoS, Probe, R2L, U2R) and distinguishes them from normal network activity.</p>
+        <p><strong>Skills:</strong>Kaggle, Python, IBM Cloud</p>
+        <div class="project-links" style="display:flex; gap: 1rem; margin-top: 0.5rem;">
+            <img 
+            src = "\Users\kaust\Downloads\interface.png"
+            alt = "Interface" 
+            loading = "lazy"
+            style = "width: 50%; height: 25%; object-fit: fill;"
+            >
+          <a href="https://github.com/HT-dev-byte/network-intrusion-detection" target="_blank" style="color: #007bff; font-weight: 500; text-decoration: underline;">Project Link</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <!-- Add more -->
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact </h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy;KV</p>
+  </footer>
+</body>
+</html>
